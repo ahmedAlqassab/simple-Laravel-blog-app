@@ -3,7 +3,7 @@
 @section('content')
     
 <h1>{{$post->title}}</h1>
-<img style="width:50%" src="/storage/cover_images/{{$post->cover_image}}">
+<img style="width:50%" src="{{asset('cover_images/'.$post->cover_image)}}">
 <br><br>
 @if (!Auth::guest())
     @if (Auth::user()->id == $post->user_id)
