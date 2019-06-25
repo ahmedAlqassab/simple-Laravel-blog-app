@@ -8,4 +8,4 @@ the project is deployed on heroku's free hosting so some changes had to be made 
 
 the link below is the url of the deployed project.
 
-http://http://afternoon-garden-87879.herokuapp.com/
+http://afternoon-garden-87879.herokuapp.com/
